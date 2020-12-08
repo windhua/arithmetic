@@ -20,14 +20,15 @@
  * 140925
  * 161828
  * [367,966 total values]
- * <p>
- * <p>
- * 二分查找实现
  */
 /**
- * 二分查找实现
+ * 二分查找实现,(用了输入重定向 < ）
  */
-package edu.princeton.cs.algs4;
+package edu.princeton.cs.algs4.chapter11;
+
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
 
