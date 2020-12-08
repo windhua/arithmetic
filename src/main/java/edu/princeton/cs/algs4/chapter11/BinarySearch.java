@@ -20,6 +20,22 @@
  * 140925
  * 161828
  * [367,966 total values]
+ * <p>
+ * 二分查找实现,(用了输入重定向 < ）
+ * <p>
+ * 二分查找实现,(用了输入重定向 < ）
+ * <p>
+ * 二分查找实现,(用了输入重定向 < ）
+ * <p>
+ * 二分查找实现,(用了输入重定向 < ）
+ * <p>
+ * 二分查找实现,(用了输入重定向 < ）
+ * <p>
+ * 二分查找实现,(用了输入重定向 < ）
+ * <p>
+ * 二分查找实现,(用了输入重定向 < ）
+ * <p>
+ * 二分查找实现,(用了输入重定向 < ）
  */
 /**
  * 二分查找实现,(用了输入重定向 < ）
@@ -58,6 +74,7 @@ public class BinarySearch {
      * @param a   the array of integers, must be sorted in ascending order
      * @param key the search key
      * @return index of key in array {@code a} if present; {@code -1} otherwise
+     * 普通方法实现
      */
     public static int indexOf(int[] a, int key) {
         int lo = 0;
@@ -71,6 +88,21 @@ public class BinarySearch {
         }
         return -1;
     }
+
+    /**
+     * 递归实现
+     */
+//    public static int indexOf(int[] a, int key) {
+//        return indexOf(key, a, 0, a.length - 1);
+//    }
+//
+//    public static int indexOf(int key, int[] a, int lo, int hi) {
+//        if (lo > hi) return -1;
+//        int mid = lo + (hi - lo) / 2;
+//        if (key < a[mid]) return indexOf(key, a, lo, mid - 1);
+//        if (key > a[mid]) return indexOf(key, a, mid + 1, hi);
+//        else return mid;
+//    }
 
     /**
      * Returns the index of the specified key in the specified array.
