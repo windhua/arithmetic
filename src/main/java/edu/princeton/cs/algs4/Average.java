@@ -18,6 +18,8 @@
 
 package edu.princeton.cs.algs4;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 /**
  *  The {@code Average} class provides a client for reading in a sequence
  *  of real numbers and printing out their average.
@@ -49,7 +51,7 @@ public class Average {
             sum += value;
             count++;
         }
-
+        System.out.println("生成是村上春树");
         // compute the average
         double average = sum / count;
 
