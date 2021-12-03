@@ -126,7 +126,7 @@ public class AmericanFlag {
                 }
                 next[c]++;
             }
-          
+            System.out.println("再次测试");
             // clear first[] and next[] arrays
             for (int c = 0; c < R+2; c++) {
                 first[c] = 0;
