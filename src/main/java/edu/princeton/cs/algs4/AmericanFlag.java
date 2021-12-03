@@ -88,7 +88,6 @@ public class AmericanFlag {
             hi = st.pop();
             lo = st.pop();
 
-            System.out.println("git");
         
             if (hi <= lo + CUTOFF) {
                 insertion(a, lo, hi, d);
